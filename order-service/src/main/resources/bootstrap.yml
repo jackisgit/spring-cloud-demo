@@ -90,6 +90,7 @@ management:
         include: '*'
 
 logging:
+  config: classpath:logback-spring.xml
   level:
     org.example.order.rabbitmq: debug
     org.springframework.amqp: info
