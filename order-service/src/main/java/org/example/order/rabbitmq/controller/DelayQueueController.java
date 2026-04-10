@@ -13,7 +13,7 @@ import java.util.Map;
  * 延迟队列测试接口
  */
 @RestController
-@RequestMapping("/delay")
+@RequestMapping("/orders/delay")
 public class DelayQueueController {
 
     @Autowired
